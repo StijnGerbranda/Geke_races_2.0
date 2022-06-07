@@ -15,6 +15,7 @@ scoreboard objectives add leaves minecraft.custom:minecraft.leave_game
 scoreboard objectives add vanish trigger
 scoreboard objectives add OniDelay dummy
 scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
+scoreboard objectives add kitsune_trigger trigger 
 
 #init for the storage
 data remove storage race:race array
