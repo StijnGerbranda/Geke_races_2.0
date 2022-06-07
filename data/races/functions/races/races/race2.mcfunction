@@ -1,1 +1,1 @@
-say race2
+#tick Function of Cat

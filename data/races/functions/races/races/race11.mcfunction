@@ -1,1 +1,1 @@
-say race11
+#tick Function of Ork

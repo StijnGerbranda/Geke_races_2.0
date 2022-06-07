@@ -1,1 +1,1 @@
-say race1
+#tick Function of Angel of Death

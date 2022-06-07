@@ -1,1 +1,1 @@
-say race10
+#tick Function of Nazgul

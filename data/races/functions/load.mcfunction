@@ -22,21 +22,21 @@ data modify storage race:race array set value [{Name:"MockRace", ID:0}]
 
 #When adding a race choose a numer and change the name.
 #After that avoid changing things as much ass posible exept for the races and startrases files coresponding with that number.
-data modify storage race:race array append value {Name:"Race1", ID:1}
-data modify storage race:race array append value {Name:"Race2", ID:2}
-data modify storage race:race array append value {Name:"Race3", ID:3}
-data modify storage race:race array append value {Name:"Race4", ID:4}
-data modify storage race:race array append value {Name:"Race5", ID:5}
-data modify storage race:race array append value {Name:"Race6", ID:6}
-data modify storage race:race array append value {Name:"Race7", ID:7}
-data modify storage race:race array append value {Name:"Race8", ID:8}
-data modify storage race:race array append value {Name:"Race9", ID:9}
-data modify storage race:race array append value {Name:"Race10", ID:10}
-data modify storage race:race array append value {Name:"Race11", ID:11}
-data modify storage race:race array append value {Name:"Race12", ID:12}
-data modify storage race:race array append value {Name:"Race13", ID:13}
-data modify storage race:race array append value {Name:"Race14", ID:14}
-data modify storage race:race array append value {Name:"Race15", ID:15}
+data modify storage race:race array append value {Name:"Angel of Death", ID:1}
+data modify storage race:race array append value {Name:"Cat", ID:2}
+data modify storage race:race array append value {Name:"Dark Elf", ID:3}
+data modify storage race:race array append value {Name:"Demon", ID:4}
+data modify storage race:race array append value {Name:"Dragonborn", ID:5}
+data modify storage race:race array append value {Name:"Dryad", ID:6}
+data modify storage race:race array append value {Name:"Feathered Serpent", ID:7}
+data modify storage race:race array append value {Name:"Humanoid", ID:8}
+data modify storage race:race array append value {Name:"Kitsune", ID:9}
+data modify storage race:race array append value {Name:"Nazgul", ID:10}
+data modify storage race:race array append value {Name:"Ork", ID:11}
+data modify storage race:race array append value {Name:"The archivist", ID:12}
+data modify storage race:race array append value {Name:"Vampire", ID:13}
+data modify storage race:race array append value {Name:"Wobbler", ID:14}
+data modify storage race:race array append value {Name:"Dwarf", ID:15}
 data modify storage race:race array append value {Name:"Race16", ID:16}
 data modify storage race:race array append value {Name:"Race17", ID:17}
 data modify storage race:race array append value {Name:"Race18", ID:18}
