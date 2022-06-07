@@ -1,1 +1,1 @@
-say race13
+#tick Function of Vampire

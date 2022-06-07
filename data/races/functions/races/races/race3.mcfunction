@@ -1,1 +1,1 @@
-say race3
+#tick Function of Dark Elf

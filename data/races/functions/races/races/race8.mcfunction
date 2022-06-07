@@ -1,1 +1,1 @@
-say race8
+#tick Function of Humanoid

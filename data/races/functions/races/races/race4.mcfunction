@@ -1,1 +1,1 @@
-say race4
+#tick Function of Demon

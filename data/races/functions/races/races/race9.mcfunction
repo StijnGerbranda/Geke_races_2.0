@@ -1,1 +1,1 @@
-say race9
+#tick Function of Kitsune
