@@ -12,7 +12,7 @@ scoreboard objectives add DeathTrigger minecraft.custom:minecraft.time_since_dea
 scoreboard objectives add leaves minecraft.custom:minecraft.leave_game
 
 #Extra scoreboards for the races (Add extra scoreboards here)
-scoreboard objectives add vanish trigger
+scoreboard objectives add darkelf_vanish_trigger trigger
 scoreboard objectives add OniDelay dummy
 scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
 
