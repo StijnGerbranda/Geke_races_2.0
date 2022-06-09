@@ -13,7 +13,10 @@ scoreboard objectives add leaves minecraft.custom:minecraft.leave_game
 
 #Extra scoreboards for the races (Add extra scoreboards here)
 scoreboard objectives add vanish trigger
+scoreboard objectives add angleofdeath_partical_trigger trigger
+scoreboard objectives add angleofdeath_invisibility_trigger trigger
 scoreboard objectives add OniDelay dummy
+scoreboard objectives add jumpcounter minecraft.custom:minecraft.jump
 scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
 
 #init for the storage
@@ -53,5 +56,5 @@ data modify storage race:race array append value {Name:"Race28", ID:28}
 data modify storage race:race array append value {Name:"Race29", ID:29}
 
 
-tellraw @a {"text": "The Races Datapack is ready", "color": "#FFFF00"}
+tellraw @a {"text": "The Races datapack is ready", "color": "#FFFF00"}
 
