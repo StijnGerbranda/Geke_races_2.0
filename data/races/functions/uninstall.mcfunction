@@ -9,6 +9,7 @@ scoreboard objectives remove OniDelay
 scoreboard objectives remove druidDamage 
 scoreboard objectives remove vanish 
 data remove storage race:race array
+team remove demons
 
 tellraw @p {"text":"Datapack Uninstalled","underlined":true,"color":"gold"}
 datapack disable "file/Geke_races_2.0"

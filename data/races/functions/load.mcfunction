@@ -16,6 +16,8 @@ scoreboard objectives add vanish trigger
 scoreboard objectives add OniDelay dummy
 scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
 
+team add demons
+
 #init for the storage
 data remove storage race:race array
 data modify storage race:race array set value [{Name:"MockRace", ID:0}]
