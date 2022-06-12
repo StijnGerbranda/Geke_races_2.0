@@ -15,9 +15,11 @@ scoreboard objectives add leaves minecraft.custom:minecraft.leave_game
 scoreboard objectives add vanish trigger
 scoreboard objectives add angleofdeath_partical_trigger trigger
 scoreboard objectives add angleofdeath_invisibility_trigger trigger
+scoreboard objectives add darkelf_vanish_trigger trigger
 scoreboard objectives add OniDelay dummy
 scoreboard objectives add jumpcounter minecraft.custom:minecraft.jump
 scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
+scoreboard objectives add time dummy
 
 #init for the storage
 data remove storage race:race array

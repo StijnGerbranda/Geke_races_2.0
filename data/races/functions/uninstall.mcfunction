@@ -8,6 +8,7 @@ scoreboard objectives remove leaves
 scoreboard objectives remove OniDelay 
 scoreboard objectives remove druidDamage 
 scoreboard objectives remove vanish 
+scoreboard objectives remove darkelf_vanish_trigger
 data remove storage race:race array
 
 tellraw @p {"text":"Datapack Uninstalled","underlined":true,"color":"gold"}
