@@ -11,6 +11,7 @@ scoreboard objectives remove vanish
 scoreboard objectives remove darkelf_vanish_trigger
 scoreboard objectives remove nazgul_invisibility_trigger 
 scoreboard objectives remove time 
+scoreboard objectives remove ork_size 
 scoreboard objectives remove vanish 
 data remove storage race:race array
 team remove demons
