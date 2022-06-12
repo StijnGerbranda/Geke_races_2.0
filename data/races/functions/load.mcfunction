@@ -22,6 +22,7 @@ scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
 scoreboard objectives add time dummy
 
 team add demons
+scoreboard objectives add sneakTime minecraft.custom:minecraft.sneak_time
 
 #init for the storage
 data remove storage race:race array
