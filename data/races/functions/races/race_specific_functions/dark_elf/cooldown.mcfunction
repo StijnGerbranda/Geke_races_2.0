@@ -1,0 +1,3 @@
+execute as @a unless score @s time matches 0 if score @s race matches 3 if score @s time <= CurrentTime time run scoreboard players enable @s darkelf_vanish_trigger
+execute as @a unless score @s time matches 0 if score @s race matches 3 if score @s time <= CurrentTime time run tellraw @s {"text":"The cooldown for invisibility has ended","underlined":true,"color":"gold"}
+execute as @a unless score @s time matches 0 if score @s race matches 3 if score @s time <= CurrentTime time run scoreboard players set @s time 0
