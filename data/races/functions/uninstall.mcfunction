@@ -10,6 +10,7 @@ scoreboard objectives remove druidDamage
 scoreboard objectives remove vanish 
 scoreboard objectives remove darkelf_vanish_trigger
 data remove storage race:race array
+team remove demons
 
 tellraw @p {"text":"Datapack Uninstalled","underlined":true,"color":"gold"}
 =======

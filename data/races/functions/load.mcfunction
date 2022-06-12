@@ -21,6 +21,8 @@ scoreboard objectives add jumpcounter minecraft.custom:minecraft.jump
 scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
 scoreboard objectives add time dummy
 
+team add demons
+
 #init for the storage
 data remove storage race:race array
 data modify storage race:race array set value [{Name:"MockRace", ID:0}]
