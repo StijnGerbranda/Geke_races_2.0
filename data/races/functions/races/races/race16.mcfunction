@@ -1,0 +1,1 @@
+#tick Function of Dark one

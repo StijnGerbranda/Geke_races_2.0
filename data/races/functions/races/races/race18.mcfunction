@@ -1,1 +1,1 @@
-say race18
+#tick Function of Tortle

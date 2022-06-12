@@ -1,1 +1,1 @@
-say race17
+#tick Function of Lizard Folke
