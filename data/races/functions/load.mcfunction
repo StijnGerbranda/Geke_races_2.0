@@ -22,6 +22,7 @@ scoreboard objectives add OniDelay dummy
 scoreboard objectives add time dummy
 scoreboard objectives add ork_size dummy
 scoreboard objectives add time dummy
+scoreboard objectives add armor_value armor
 scoreboard objectives add jumpcounter minecraft.custom:minecraft.jump
 scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
 scoreboard objectives add sneakTime minecraft.custom:minecraft.sneak_time
@@ -55,7 +56,7 @@ data modify storage race:race array append value {Name:"Tortle", ID:18}
 data modify storage race:race array append value {Name:"Snake Person", ID:19}
 data modify storage race:race array append value {Name:"Frog", ID:20}
 data modify storage race:race array append value {Name:"End Kobold", ID:21}
-data modify storage race:race array append value {Name:"Race22", ID:22}
+data modify storage race:race array append value {Name:"Ethereal", ID:22}
 data modify storage race:race array append value {Name:"Race23", ID:23}
 data modify storage race:race array append value {Name:"Race24", ID:24}
 data modify storage race:race array append value {Name:"Race25", ID:25}
