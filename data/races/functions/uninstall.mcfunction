@@ -7,6 +7,8 @@ scoreboard objectives remove DeathTrigger
 scoreboard objectives remove leaves 
 scoreboard objectives remove OniDelay 
 scoreboard objectives remove druidDamage 
+scoreboard objectives remove nazgul_invisibility_trigger 
+scoreboard objectives remove time 
 scoreboard objectives remove vanish 
 data remove storage race:race array
 
