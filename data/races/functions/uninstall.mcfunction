@@ -17,6 +17,7 @@ scoreboard objectives remove angleofdeath_invisibility_trigger
 scoreboard objectives remove angleofdeath_partical_trigger
 scoreboard objectives remove vanish
 scoreboard objectives remove jumpcounter
+scoreboard objectives remove sneakTime
 data remove storage race:race array
 team remove demons
 
