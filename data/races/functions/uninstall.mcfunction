@@ -13,17 +13,14 @@ scoreboard objectives remove nazgul_invisibility_trigger
 scoreboard objectives remove time 
 scoreboard objectives remove ork_size 
 scoreboard objectives remove vanish 
-data remove storage race:race array
-team remove demons
-
-tellraw @p {"text":"Datapack Uninstalled","underlined":true,"color":"gold"}
-=======
 scoreboard objectives remove angleofdeath_invisibility_trigger
 scoreboard objectives remove angleofdeath_partical_trigger
 scoreboard objectives remove vanish
 scoreboard objectives remove jumpcounter
 data remove storage race:race array
+team remove demons
 
-tellraw @a {"text": "Disabling now", "color": "#FFFF00"}
+tellraw @p {"text":"Datapack Uninstalled","underlined":true,"color":"gold"}
+
 datapack disable "file/Geke_races_2.0"
 

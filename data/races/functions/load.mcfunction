@@ -16,17 +16,17 @@ scoreboard objectives add vanish trigger
 scoreboard objectives add angleofdeath_partical_trigger trigger
 scoreboard objectives add angleofdeath_invisibility_trigger trigger
 scoreboard objectives add darkelf_vanish_trigger trigger
-scoreboard objectives add OniDelay dummy
-scoreboard objectives add jumpcounter minecraft.custom:minecraft.jump
 scoreboard objectives add nazgul_invisibility_trigger trigger
+scoreboard objectives add OniDelay dummy
 scoreboard objectives add OniDelay dummy
 scoreboard objectives add time dummy
 scoreboard objectives add ork_size dummy
-scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
 scoreboard objectives add time dummy
+scoreboard objectives add jumpcounter minecraft.custom:minecraft.jump
+scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
+scoreboard objectives add sneakTime minecraft.custom:minecraft.sneak_time
 
 team add demons
-scoreboard objectives add sneakTime minecraft.custom:minecraft.sneak_time
 
 #init for the storage
 data remove storage race:race array
