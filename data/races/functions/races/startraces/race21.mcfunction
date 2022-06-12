@@ -1,0 +1,1 @@
+#load Function of End Kobold

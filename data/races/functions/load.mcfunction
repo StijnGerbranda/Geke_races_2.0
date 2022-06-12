@@ -37,12 +37,12 @@ data modify storage race:race array append value {Name:"The archivist", ID:12}
 data modify storage race:race array append value {Name:"Vampire", ID:13}
 data modify storage race:race array append value {Name:"Wobbler", ID:14}
 data modify storage race:race array append value {Name:"Dwarf", ID:15}
-data modify storage race:race array append value {Name:"Race16", ID:16}
-data modify storage race:race array append value {Name:"Race17", ID:17}
-data modify storage race:race array append value {Name:"Race18", ID:18}
-data modify storage race:race array append value {Name:"Race19", ID:19}
-data modify storage race:race array append value {Name:"Race20", ID:20}
-data modify storage race:race array append value {Name:"Race21", ID:21}
+data modify storage race:race array append value {Name:"Dark one", ID:16}
+data modify storage race:race array append value {Name:"Lizard Folke", ID:17}
+data modify storage race:race array append value {Name:"Tortle", ID:18}
+data modify storage race:race array append value {Name:"Snake Person", ID:19}
+data modify storage race:race array append value {Name:"Frog", ID:20}
+data modify storage race:race array append value {Name:"End Kobold", ID:21}
 data modify storage race:race array append value {Name:"Race22", ID:22}
 data modify storage race:race array append value {Name:"Race23", ID:23}
 data modify storage race:race array append value {Name:"Race24", ID:24}

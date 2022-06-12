@@ -1,1 +1,1 @@
-say race21
+#tick Function of End Kobold
