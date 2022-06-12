@@ -1,1 +1,1 @@
-say race19
+#tick Function of Snake Person
