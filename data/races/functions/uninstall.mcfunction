@@ -1,4 +1,4 @@
-scale reset @a
+#scale reset @a
 
 scoreboard objectives remove hasRace 
 scoreboard objectives remove race 
