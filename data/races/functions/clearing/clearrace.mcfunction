@@ -1,5 +1,6 @@
 scale reset @s
 effect clear @s
+tag @s remove forcefield
 
 scoreboard players reset @s hasRace 
 scoreboard players reset @s race 
