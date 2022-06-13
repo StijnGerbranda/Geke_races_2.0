@@ -1,4 +1,5 @@
 scale reset @s
+effect clear @s
 
 scoreboard players reset @s hasRace 
 scoreboard players reset @s race 
