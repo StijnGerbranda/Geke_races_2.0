@@ -233,5 +233,16 @@
             "action": "run_command",
             "value": "/trigger race set 21"
         }
+    },
+    "  ",
+    {
+        "nbt": "array[22].Name",
+        "storage": "race:race",
+        "color": "#347467",
+        "bold": false,
+        "clickEvent": {
+            "action": "run_command",
+            "value": "/trigger race set 22"
+        }
     }
 ]
