@@ -21,6 +21,6 @@ scoreboard players reset @s angleofdeath_partical_trigger
 scoreboard players reset @s vanish
 scoreboard players reset @s jumpcounter
 scoreboard players reset @s sneakTime
-team leave demons
+team leave @s[team=demons]
 
 tellraw @a ["",{"text":"Cleared race of: ","underlined":true,"color":"gold"},{"selector":"@s","underlined":true,"color":"gold"}]

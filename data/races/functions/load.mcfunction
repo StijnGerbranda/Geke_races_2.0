@@ -18,7 +18,6 @@ scoreboard objectives add angleofdeath_invisibility_trigger trigger
 scoreboard objectives add darkelf_vanish_trigger trigger
 scoreboard objectives add nazgul_invisibility_trigger trigger
 scoreboard objectives add OniDelay dummy
-scoreboard objectives add OniDelay dummy
 scoreboard objectives add time dummy
 scoreboard objectives add ork_size dummy
 scoreboard objectives add time dummy
