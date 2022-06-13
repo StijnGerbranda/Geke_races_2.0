@@ -6,7 +6,7 @@ scoreboard players reset @s Debug
 scoreboard players reset @s DeathTrigger 
 scoreboard players reset @s leaves 
 scoreboard players reset @s OniDelay 
-scoreboard players reset @s druidDamage 
+scoreboard players reset @s frogDamage 
 scoreboard players reset @s vanish 
 scoreboard players reset @s darkelf_vanish_trigger
 scoreboard players reset @s nazgul_invisibility_trigger 
@@ -19,6 +19,7 @@ scoreboard players reset @s angleofdeath_partical_trigger
 scoreboard players reset @s vanish
 scoreboard players reset @s jumpcounter
 scoreboard players reset @s sneakTime
+scoreboard players reset @s armor_value
 team leave demons
 
 tellraw @a ["",{"text":"Cleared race of: ","underlined":true,"color":"gold"},{"selector":"@s","underlined":true,"color":"gold"}]

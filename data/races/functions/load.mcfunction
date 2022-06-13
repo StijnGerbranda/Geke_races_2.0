@@ -24,7 +24,8 @@ scoreboard objectives add ork_size dummy
 scoreboard objectives add time dummy
 scoreboard objectives add armor_value armor
 scoreboard objectives add jumpcounter minecraft.custom:minecraft.jump
-scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
+scoreboard objectives add frogDamage minecraft.custom:minecraft.damage_taken
+scoreboard objectives add frogDeath deathCount
 scoreboard objectives add kitsune_trigger trigger 
 scoreboard objectives add sneakTime minecraft.custom:minecraft.sneak_time
 
