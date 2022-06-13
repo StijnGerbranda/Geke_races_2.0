@@ -1,29 +1,24 @@
-#needs to be redone 
-
 scale reset @s
-tag @s remove forcefield
 
-scoreboard players set @s hasRace 0
-scoreboard players set @s race 0
-scoreboard players set @s DeathTrigger 0
-scoreboard players set @s vanish 0
+scoreboard players reset @s hasRace 
+scoreboard players reset @s race 
+scoreboard players reset @s Debug 
+scoreboard players reset @s DeathTrigger 
+scoreboard players reset @s leaves 
+scoreboard players reset @s OniDelay 
+scoreboard players reset @s druidDamage 
+scoreboard players reset @s vanish 
+scoreboard players reset @s darkelf_vanish_trigger
+scoreboard players reset @s nazgul_invisibility_trigger 
+scoreboard players reset @s kitsune_trigger
+scoreboard players reset @s time 
+scoreboard players reset @s ork_size 
+scoreboard players reset @s vanish 
+scoreboard players reset @s angleofdeath_invisibility_trigger
+scoreboard players reset @s angleofdeath_partical_trigger
+scoreboard players reset @s vanish
+scoreboard players reset @s jumpcounter
+scoreboard players reset @s sneakTime
+team leave demons
 
-scoreboard players set @s Dwarf 0
-scoreboard players set @s ForestElf 0
-scoreboard players set @s Feline 0
-scoreboard players set @s NorthLander 0
-scoreboard players set @s Pixie 0
-scoreboard players set @s SpiritOfTheForest 0
-scoreboard players set @s Goblin 0
-scoreboard players set @s Nazgul 0
-scoreboard players set @s Seamen 0
-scoreboard players set @s Hobbit 0
-scoreboard players set @s FallenAngel 0
-scoreboard players set @s DarkElf 0
-scoreboard players set @s Nacken 0
-scoreboard players set @s Oni 0
-scoreboard players set @s TheArchivist 0
-scoreboard players set @s Yeti 0
-scoreboard players set @s Ogre 0
-scoreboard players set @s Druid 0
-scoreboard players set @s Halfling 0
+tellraw @a ["",{"text":"Cleared race of: ","underlined":true,"color":"gold"},{"selector":"@s","underlined":true,"color":"gold"}]
