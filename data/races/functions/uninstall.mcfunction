@@ -18,9 +18,11 @@ scoreboard objectives remove ork_size
 scoreboard objectives remove vanish 
 scoreboard objectives remove angleofdeath_invisibility_trigger
 scoreboard objectives remove angleofdeath_partical_trigger
+scoreboard objectives remove vampire_double_jump_trigger
 scoreboard objectives remove vanish
 scoreboard objectives remove jumpcounter
 scoreboard objectives remove sneakTime
+scoreboard objectives remove jumpduration
 data remove storage race:race array
 team remove demons
 
