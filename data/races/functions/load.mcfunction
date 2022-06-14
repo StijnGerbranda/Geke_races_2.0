@@ -16,6 +16,7 @@ scoreboard objectives add vanish trigger
 scoreboard objectives add angleofdeath_partical_trigger trigger
 scoreboard objectives add angleofdeath_invisibility_trigger trigger
 scoreboard objectives add vampire_double_jump_trigger trigger
+scoreboard objectives add frog_double_jump_trigger trigger
 scoreboard objectives add darkelf_vanish_trigger trigger
 scoreboard objectives add nazgul_invisibility_trigger trigger
 scoreboard objectives add OniDelay dummy

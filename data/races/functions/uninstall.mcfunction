@@ -1,4 +1,4 @@
-scale reset @a
+
 effect clear @a
 tag @a remove forcefield
 
