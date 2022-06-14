@@ -1,4 +1,4 @@
-
+execute as @a run function races:reset_scale
 effect clear @a
 tag @a remove forcefield
 
