@@ -15,13 +15,14 @@ scoreboard objectives add leaves minecraft.custom:minecraft.leave_game
 scoreboard objectives add vanish trigger
 scoreboard objectives add angleofdeath_partical_trigger trigger
 scoreboard objectives add angleofdeath_invisibility_trigger trigger
+scoreboard objectives add vampire_double_jump_trigger trigger
 scoreboard objectives add darkelf_vanish_trigger trigger
 scoreboard objectives add nazgul_invisibility_trigger trigger
-scoreboard objectives add OniDelay dummy
 scoreboard objectives add OniDelay dummy
 scoreboard objectives add time dummy
 scoreboard objectives add ork_size dummy
 scoreboard objectives add time dummy
+scoreboard objectives add jumpduration dummy
 scoreboard objectives add armor_value armor
 scoreboard objectives add jumpcounter minecraft.custom:minecraft.jump
 scoreboard objectives add frogDamage minecraft.custom:minecraft.damage_taken

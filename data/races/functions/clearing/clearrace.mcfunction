@@ -1,4 +1,6 @@
 scale reset @s
+effect clear @s
+tag @s remove forcefield
 
 scoreboard players reset @s hasRace 
 scoreboard players reset @s race 
@@ -19,6 +21,7 @@ scoreboard players reset @s angleofdeath_partical_trigger
 scoreboard players reset @s vanish
 scoreboard players reset @s jumpcounter
 scoreboard players reset @s sneakTime
+team leave @s[team=demons]
 scoreboard players reset @s armor_value
 team leave demons
 

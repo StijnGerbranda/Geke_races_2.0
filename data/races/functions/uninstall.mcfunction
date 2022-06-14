@@ -1,4 +1,6 @@
 scale reset @a
+effect clear @a
+tag @a remove forcefield
 
 scoreboard objectives remove hasRace 
 scoreboard objectives remove race 
@@ -16,9 +18,11 @@ scoreboard objectives remove ork_size
 scoreboard objectives remove vanish 
 scoreboard objectives remove angleofdeath_invisibility_trigger
 scoreboard objectives remove angleofdeath_partical_trigger
+scoreboard objectives remove vampire_double_jump_trigger
 scoreboard objectives remove vanish
 scoreboard objectives remove jumpcounter
 scoreboard objectives remove sneakTime
+scoreboard objectives remove jumpduration
 scoreboard objectives remove armor_value
 data remove storage race:race array
 team remove demons
