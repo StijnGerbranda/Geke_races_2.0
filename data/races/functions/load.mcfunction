@@ -57,7 +57,7 @@ data modify storage race:race array append value {Name:"Dwarf", ID:15}
 data modify storage race:race array append value {Name:"Dark one", ID:16}
 data modify storage race:race array append value {Name:"Lizard Folke", ID:17}
 data modify storage race:race array append value {Name:"Tortle", ID:18}
-data modify storage race:race array append value {Name:"Snake Person", ID:19}
+data modify storage race:race array append value {Name:"Race19", ID:19}
 data modify storage race:race array append value {Name:"Frog", ID:20}
 data modify storage race:race array append value {Name:"End Kobold", ID:21}
 data modify storage race:race array append value {Name:"Ethereal", ID:22}

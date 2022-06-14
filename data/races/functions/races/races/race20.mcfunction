@@ -9,5 +9,5 @@ execute if score @s time < CurrentTime time run effect give @s poison 10 0 true
 execute at @s if predicate races:raining if predicate races:check_sky run function races:races/race_specific_functions/frog/reset_wet_timer
 execute at @s if predicate races:inwater run function races:races/race_specific_functions/frog/reset_wet_timer
 execute at @s if block ~ ~ ~ minecraft:water_cauldron run function races:races/race_specific_functions/frog/reset_wet_timer
-execute at @s if block ~ ~ ~ minecraft:water_cauldron run function races:races/race_specific_functions/frog/reset_wet_timer
+
 execute if score @s frog_double_jump_trigger matches 1.. run function races:races/race_specific_functions/frog/trigger_dubbeljump

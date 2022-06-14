@@ -24,6 +24,8 @@ scoreboard objectives remove jumpcounter
 scoreboard objectives remove sneakTime
 scoreboard objectives remove jumpduration
 scoreboard objectives remove armor_value
+scoreboard objectives remove frog_double_jump_trigger
+scoreboard objectives remove frogDamage
 data remove storage race:race array
 team remove demons
 
