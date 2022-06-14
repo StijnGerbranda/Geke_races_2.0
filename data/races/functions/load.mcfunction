@@ -13,8 +13,25 @@ scoreboard objectives add leaves minecraft.custom:minecraft.leave_game
 
 #Extra scoreboards for the races (Add extra scoreboards here)
 scoreboard objectives add vanish trigger
+scoreboard objectives add angleofdeath_partical_trigger trigger
+scoreboard objectives add angleofdeath_invisibility_trigger trigger
+scoreboard objectives add vampire_double_jump_trigger trigger
+scoreboard objectives add frog_double_jump_trigger trigger
+scoreboard objectives add darkelf_vanish_trigger trigger
+scoreboard objectives add nazgul_invisibility_trigger trigger
 scoreboard objectives add OniDelay dummy
-scoreboard objectives add druidDamage minecraft.custom:minecraft.damage_taken
+scoreboard objectives add time dummy
+scoreboard objectives add ork_size dummy
+scoreboard objectives add time dummy
+scoreboard objectives add jumpduration dummy
+scoreboard objectives add armor_value armor
+scoreboard objectives add jumpcounter minecraft.custom:minecraft.jump
+scoreboard objectives add frogDamage minecraft.custom:minecraft.damage_taken
+scoreboard objectives add frogDeath deathCount
+scoreboard objectives add kitsune_trigger trigger 
+scoreboard objectives add sneakTime minecraft.custom:minecraft.sneak_time
+
+team add demons
 
 #init for the storage
 data remove storage race:race array
@@ -40,10 +57,10 @@ data modify storage race:race array append value {Name:"Dwarf", ID:15}
 data modify storage race:race array append value {Name:"Dark one", ID:16}
 data modify storage race:race array append value {Name:"Lizard Folke", ID:17}
 data modify storage race:race array append value {Name:"Tortle", ID:18}
-data modify storage race:race array append value {Name:"Snake Person", ID:19}
+data modify storage race:race array append value {Name:"Race19", ID:19}
 data modify storage race:race array append value {Name:"Frog", ID:20}
 data modify storage race:race array append value {Name:"End Kobold", ID:21}
-data modify storage race:race array append value {Name:"Race22", ID:22}
+data modify storage race:race array append value {Name:"Ethereal", ID:22}
 data modify storage race:race array append value {Name:"Race23", ID:23}
 data modify storage race:race array append value {Name:"Race24", ID:24}
 data modify storage race:race array append value {Name:"Race25", ID:25}
@@ -53,5 +70,5 @@ data modify storage race:race array append value {Name:"Race28", ID:28}
 data modify storage race:race array append value {Name:"Race29", ID:29}
 
 
-tellraw @a {"text": "The Races Datapack is ready", "color": "#FFFF00"}
+tellraw @a {"text": "The Races datapack is ready", "color": "#FFFF00"}
 
