@@ -1,4 +1,5 @@
 execute store result score CurrentTime time run time query gametime
+execute store result score CurrentTime watertime run time query gametime
 
 
 #every thing in the races pack is run by this

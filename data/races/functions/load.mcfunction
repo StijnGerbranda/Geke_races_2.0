@@ -19,10 +19,11 @@ scoreboard objectives add vampire_double_jump_trigger trigger
 scoreboard objectives add frog_double_jump_trigger trigger
 scoreboard objectives add darkelf_vanish_trigger trigger
 scoreboard objectives add nazgul_invisibility_trigger trigger
+scoreboard objectives add Gremlin_jump_trigger trigger
 scoreboard objectives add OniDelay dummy
-scoreboard objectives add time dummy
 scoreboard objectives add ork_size dummy
 scoreboard objectives add time dummy
+scoreboard objectives add watertime dummy
 scoreboard objectives add jumpduration dummy
 scoreboard objectives add armor_value armor
 scoreboard objectives add jumpcounter minecraft.custom:minecraft.jump
@@ -61,7 +62,7 @@ data modify storage race:race array append value {Name:"Goblin", ID:19}
 data modify storage race:race array append value {Name:"Frog", ID:20}
 data modify storage race:race array append value {Name:"End Kobold", ID:21}
 data modify storage race:race array append value {Name:"Ethereal", ID:22}
-data modify storage race:race array append value {Name:"Race23", ID:23}
+data modify storage race:race array append value {Name:"Gremlin", ID:23}
 data modify storage race:race array append value {Name:"Race24", ID:24}
 data modify storage race:race array append value {Name:"Race25", ID:25}
 data modify storage race:race array append value {Name:"Race26", ID:26}

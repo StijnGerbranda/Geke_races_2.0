@@ -11,3 +11,6 @@ execute at @s if block ~ ~ ~ minecraft:water_cauldron run function races:races/r
 
 execute if score @s leaves matches 1.. run function races:races/race_specific_functions/lizard_folke/reset_wet_timer
 execute if score @s leaves matches 1.. run scoreboard players set @s leaves 0
+
+execute at @s if predicate races:inwater run function races:races/race_specific_functions/lizard_folke/water_timer
+execute at @s unless predicate races:inwater run function races:races/race_specific_functions/lizard_folke/reset_water_timer
