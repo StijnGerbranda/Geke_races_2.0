@@ -11,3 +11,6 @@ execute at @s if predicate races:inwater run function races:races/race_specific_
 execute at @s if block ~ ~ ~ minecraft:water_cauldron run function races:races/race_specific_functions/frog/reset_wet_timer
 
 execute if score @s frog_double_jump_trigger matches 1.. run function races:races/race_specific_functions/frog/trigger_dubbeljump
+
+execute if score @s leaves matches 1.. run function races:races/race_specific_functions/frog/reset_wet_timer
+execute if score @s leaves matches 1.. run scoreboard players set @s leaves 0

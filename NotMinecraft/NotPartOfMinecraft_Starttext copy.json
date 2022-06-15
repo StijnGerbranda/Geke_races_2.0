@@ -203,9 +203,20 @@
     },
     "  ",
     {
-        "nbt": "array[20].Name",
+        "nbt": "array[19].Name",
         "storage": "race:race",
         "color": "#B844EE",
+        "bold": false,
+        "clickEvent": {
+            "action": "run_command",
+            "value": "/trigger race set 19"
+        }
+    },
+    "  ",
+    {
+        "nbt": "array[20].Name",
+        "storage": "race:race",
+        "color": "#347467",
         "bold": false,
         "clickEvent": {
             "action": "run_command",
