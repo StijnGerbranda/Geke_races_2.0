@@ -1,3 +1,4 @@
+scoreboard players enable @s Gremlin_jump_trigger
 
 execute as @s at @s run effect give @s jump_boost 3 2 true
 
